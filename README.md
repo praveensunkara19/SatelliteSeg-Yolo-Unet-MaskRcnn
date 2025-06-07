@@ -10,19 +10,20 @@ This project allows you to upload or capture satellite images, predict segmentat
 - Split segmented output into 6 images (Buildings, Hills, Land, Road, Vegetation, Water)
 - Calculate area covered by each class
 
-##Installation steps
+## Installation steps
 
-git clone https://github.com/praveensunkara19/ObjectTracker.git
-cd ObjectTracker
+git clone https://github.com/praveensunkara19/SatelliteSeg-Yolo-Unet-MaskRcnn.git
+cd SatelliteSeg-Yolo-Unet-MaskRcnn
 
-2. Set up virtual environment (optional but recommended)
+1.Set up virtual environment (optional but recommended)
 ```bash
 python -m venv myenv
 myenv\Scripts\activate    # On Windows
 
-3. Install dependencies
+2.Install dependencies
 ```bash
 pip install -r requirements.txt
 
-4. How to run
+3.How to run
+```bash
 py app.py
