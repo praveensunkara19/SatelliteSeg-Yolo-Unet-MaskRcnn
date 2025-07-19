@@ -2,6 +2,17 @@
 
 This project allows you to **upload or capture satellite images**, run segmentation predictions using **YOLOv11**, **UNet**, and **Mask R-CNN** models, and **visualize each segmented class** with corresponding area calculations.
 
+## 🧪 Prototype Setup with GUI
+
+
+<table>
+  <tr>
+    <td><img src="results_Images/2.png" width="300"/></td>
+    <td><img src="results_Images/3.png" width="300"/></td>
+    <td><img src="results_Images/4.png" width="300"/></td>
+  </tr>
+</table>
+
 ---
 
 ## 🚀 Features
@@ -54,8 +65,7 @@ SatelliteSeg-Yolo-Unet-MaskRcnn/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
-
+```
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
